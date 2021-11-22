@@ -1,0 +1,38 @@
+.item{
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 80%;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+#partner1{
+    width: 15vw;
+    height: auto;
+
+    padding-top: 5vh;
+}
+#partner2{
+
+    width: 15vw;
+    height: auto;
+}
+#partner3{
+
+    width: 15vw;
+    height: auto;
+}
+#partner4{
+
+    width: 15vw;
+    height: auto;
+}
+#partner5{
+    width: 15vw;
+    height: auto;
+    padding-top:4vh;
+
+}

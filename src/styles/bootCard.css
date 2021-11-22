@@ -1,0 +1,37 @@
+.card{
+    min-width: 200px;
+    position: relative;
+    margin: 3%;
+    transition: 200ms;
+    overflow: hidden;
+}
+.labsetup{
+    text-align: center;
+    padding: 5%;
+}
+.card-body{
+    margin: auto;
+}
+.btn{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.labContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card img{
+    width: 200px;
+    padding: 5%;
+    transition: 100ms;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card:hover > img{
+    transform: scale(1.1);
+}

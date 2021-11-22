@@ -1,0 +1,78 @@
+.new-card {
+    width: 280px;
+    height: 360px;
+    border-radius: 15px;/*comment this*/
+    padding: 1.5rem;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+  }
+  .new-card:hover {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .new-card:hover:before {
+    opacity: 1;
+  }
+  .new-card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .new-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;/*comment this*/
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .new-card img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;/*comment this*/
+  }
+  .new-card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+  }
+  .new-card .info h1 {
+    margin: 0px;
+  }
+  .new-card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .new-card .info button {
+    margin-top: 1vh;
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;/*comment this*/
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  .new-card .info button:hover {
+    background: black;
+    color: white;
+  }

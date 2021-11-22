@@ -1,0 +1,16 @@
+.offeringcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.offeringheader{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.hrline{
+    width: 5%;
+    margin: auto;
+    border: 0.1rem solid #000;
+    margin-bottom: 2%;
+}

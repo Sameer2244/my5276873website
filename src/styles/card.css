@@ -1,0 +1,82 @@
+.mcard-body{
+    position: relative;
+    width: 20%;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    margin: 1vw;
+    transition: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(196, 196, 196, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+.mcard-content{
+    padding: 1vw;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mcinfo{
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ctitle{
+    text-align: center;
+    margin-top: 1vw;
+}
+.mcard-body:hover{
+    transform: scale(1.01);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.mcard-body:hover > .mcard-content{
+    opacity: 1;
+    color: white;
+
+}
+.lmbtn{
+    transition: 200ms;
+    text-decoration: none;
+    color: white;
+}
+.btnoverlay{
+    background-color: black;
+    position: absolute;
+    width: 110%;
+    /* transform: translateX(-110%); */
+    height: 100%;
+    transition: 200ms;
+    z-index: 0;
+}
+.lmbtncover:hover > .btnoverlay{
+    /* transform: translateX(-10%); */
+}
+.lmbtncover:hover > .lmbtn{
+   color: white;
+   
+}
+.lmbtncover:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.lmbtncover{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    padding: 1% 0%;
+    margin-bottom: 1vw;
+}
