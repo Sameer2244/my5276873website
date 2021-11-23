@@ -18,7 +18,14 @@
   }
   .new-card:hover .info {
     opacity: 1;
+  }
+  .new-card:hover button {
+    opacity: 1;
     transform: translateY(0px);
+  }
+  .new-card button{
+    
+    transform: translateY(30px);
   }
   .new-card:before {
     content: "";
@@ -47,9 +54,11 @@
   .new-card .info {
     position: relative;
     z-index: 3;
+    text-align: center;
+    margin: 0 auto;
     color: white;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(0px);
     transition: 0.5s;
   }
   .new-card .info h1 {
@@ -60,6 +69,7 @@
     font-size: 15px;
     margin-top: 8px;
   }
+  
   .new-card .info button {
     margin-top: 1vh;
     padding: 0.6rem;

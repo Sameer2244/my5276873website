@@ -24,8 +24,8 @@ function App() {
     {/* <Workshop/>
     <Labsetup/> */}
     <Owlcarousel/>
-    {/* <Testimonials/> */}
-    <Testimonialsnew/>
+    <Testimonials/>
+    {/* <Testimonialsnew/> */}
     <Footer/>
     </div>
   );

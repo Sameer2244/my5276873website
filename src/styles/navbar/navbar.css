@@ -1,12 +1,19 @@
 #title-logo-style{
     color: black;
 }
+#my-logo{
+    transition: 500ms;
+}
 .container-fluid{
+    position: relative;
     height: 3vw;
     min-height: 75px;
 }
 #my-navbar{
-    height: 12vh;
+    transition: 500ms;
+    height: 13vh;
+}
+#flexiblenav{
     transition: 500ms;
 }
 .navbar-custom{
@@ -14,7 +21,7 @@
 }
 .container-fluid img{
         width: 15vw;
-        min-width: 250px;
+        /* min-width: 250px; */
         margin-left: 2vw;
 }
 .navbar-nav > li{

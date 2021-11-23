@@ -10,7 +10,7 @@ export default function Owlcarousel() {
             <UniHeader>Our Industry Partners</UniHeader>
             <OwlCarousel className='owl-theme' responsive={false} items={5} center={true} loop margin={0}>
     <div className='item'>
-        <img id="partner1" src="./images/partners/cyin2.jpg" alt="..."/>
+        <img id="partner1" src="./images/partners/infineon+cypress2.png" alt="..."/>
     </div>
     <div className='item'>
         <img id="partner2" src="./images/partners/enablAR.png" alt="..."/>

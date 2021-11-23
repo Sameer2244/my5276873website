@@ -1,7 +1,7 @@
 .owlContainer{
-    background-color: #27272E;
+    background-color: #F7F7F7;
     padding: 3vw 0;
-    color: white;
+    color: black;
     text-align: center;
 }
 .owl-theme{
@@ -9,7 +9,9 @@
     margin: auto;
 }
 
-.item{
+.oitem{
     margin: auto;
-    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2vw 2vh;
+    width: 60%;
 }

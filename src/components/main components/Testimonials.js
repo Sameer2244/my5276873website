@@ -9,10 +9,10 @@ export default function Testimonials() {
             <h2>Testimonials</h2>
         <OwlCarousel className='owl-theme' responsive={false} items={1}  loop margin={0}>
             
-            <div className="item">
+            <div className="oitem">
                 <h5>Avneet Kaur, SIT 2019</h5>
                 <h6>KIIT School of Electronics</h6>
-                
+                <hr/>
                 <p>
                 <span style={{display:'inline-block',alignSelf:'start',paddingRight:'1vw'}}><img style={{width:'50px',height:'50px'}} src="./images/logos/quotation.png" alt="..."/></span>
                 I joined the Embedded Systems & IoT course in the SIT Program. 
@@ -26,9 +26,10 @@ export default function Testimonials() {
               In the end, I'm pretty much satisfied with my decision to join this course as it met all my expectations.
                 </p>
             </div>
-            <div className="item">
+            <div className="oitem">
                 <h5>Samruddhi Patil</h5>
                 <h6>Fr. Conceicao Rodrigues Institute of Technology</h6>
+                <hr/>
                 <p>
                 <span style={{display:'inline-block',alignSelf:'start',paddingRight:'1vw'}}><img style={{width:'50px',height:'50px'}} src="./images/logos/quotation.png" alt="..."/></span>
               This was my first year in eduvance. 
@@ -42,10 +43,11 @@ export default function Testimonials() {
               
                 </p>
             </div>
-            <div className="item">
+            <div className="oitem">
                 <h5>Nimish Nitin Gujarathi</h5>
                 <h6>State University of New York at Buffalo</h6>
                
+                <hr/>
                 <p>
                 <span style={{display:'inline-block',alignSelf:'start',paddingRight:'1vw'}}><img style={{width:'50px',height:'50px'}} src="./images/logos/quotation.png" alt="..."/></span>
                     To begin with, the biggest compliment I will give to this course is that I still havent and will not forget a single concept/procedure that was taught. 
@@ -54,9 +56,10 @@ export default function Testimonials() {
               I thank Ganesh sir, Karan and Janhavi for training me such that I am able to take up advanced Python and R-Pi projects during my MS</p>
             </div>
             
-            <div className="item">
+            <div className="oitem">
                 <h5>Sriram V.B.</h5>
                 <h6>Fr.Conceicao Rodrigues Institute of Technology</h6>
+                <hr/>
                 <p>
                 <span style={{display:'inline-block',alignSelf:'start',paddingRight:'1vw'}}><img style={{width:'50px',height:'50px'}} src="./images/logos/quotation.png" alt="..."/></span>
                     My time in the FPGA course was both challenging and enjoyable. 

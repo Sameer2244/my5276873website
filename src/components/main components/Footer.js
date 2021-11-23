@@ -41,7 +41,7 @@ var rootElement = document.documentElement;
                     <h5>Products</h5>
                     <a>
                     Edtecg products<br/> 
-                    higher education products
+                    Higher Education products
                     </a>
                 </div>
             </div>
