@@ -35,7 +35,7 @@ export default function Imageslidernew() {
       }
       counter++;
       console.log(counter)
-     }, 5000);
+     }, 10000);
 
   }, [])
   const check1=()=>{
@@ -73,32 +73,32 @@ export default function Imageslidernew() {
           <div className="slide first">
             <img src="/images/slider/slider1.jpg" alt=".."/>
             <div className="slidertitle">
-            <h1>Title <br/><span>one</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1>Eduvance</h1>
+            <p>India's Premier Edtech and Skill Development Company in the K-12 and Higher Education Sector</p>
             
             </div>
           </div>
           <div className="slide">
             <img src="/images/slider/slider2.jpg" alt=""/>
             <div className="slidertitle">
-            <h1>Title <br/><span>two</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1>EnablAR</h1>
+            <p>State of the art AR VR coding and development platform for students</p>
           
             </div>
             </div>
           <div className="slide">
             <img src="/images/slider/slider1.jpg" alt=""/>
             <div className="slidertitle">
-            <h1>Title <br/><span>three</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1>Drone Simulator </h1>
+            <p>India's first drone simulator to teach physics behind drone using a gamified platform</p>
           
             </div>
             </div>
           <div className="slide">
             <img src="/images/slider/slider2.jpg" alt=""/>
             <div className="slidertitle">
-            <h1>Title <br/><span>four</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1>Entrepedia</h1>
+            <p>Platform for students to learn fundamentals of entrepreneurship by simulating their ideas</p>
           
             </div>
             </div>

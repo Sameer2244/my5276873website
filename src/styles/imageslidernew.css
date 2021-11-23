@@ -86,7 +86,7 @@
   position: absolute;
   color: black;
   top: 50%;
-  left: -10%;
+  left: 0%;
   transform: translate(30%,-50%);
 }
 .slidertitle h1 span{
@@ -95,7 +95,7 @@
 
 }
 .slidertitle p{
-  width: 20%;
+  width: 50%;
 }
 .navigation-auto{
   display: flex;
