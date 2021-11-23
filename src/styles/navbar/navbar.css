@@ -24,6 +24,9 @@
         /* min-width: 250px; */
         margin-left: 2vw;
 }
+.nav-link:hover{
+    border-radius: 10px;
+}
 .navbar-nav > li{
     font-size: 1.15rem;
     padding-left:0.5vw;

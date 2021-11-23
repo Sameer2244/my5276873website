@@ -1,5 +1,5 @@
 .owlContainer{
-    background-color: #F7F7F7;
+    background-color: #fff;
     padding: 3vw 0;
     color: black;
     text-align: center;
@@ -11,6 +11,7 @@
 
 .oitem{
     margin: auto;
+    background-color: #F7F7F7;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 2vw 2vh;
     width: 60%;

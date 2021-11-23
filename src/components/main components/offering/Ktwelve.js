@@ -18,15 +18,6 @@ export default function Ktwelve() {
                     </div>
                 </div>
                 <div className="kproduct">
-                    <img className="kimg" alt="..." src="/images/logos/career.svg"/>
-                    <h5>Technology Leadership Program</h5>
-                    <h6>12/20 Hour workshops on various platforms</h6>
-                    <div className="kanime">
-                        <div className="kover" ></div>
-                        <a className="ksm" href="#t">See More</a>
-                    </div>
-                </div>
-                <div className="kproduct">
                     <img className="kimg" alt="..." src="/images/logos/lan.svg"/>
                     <h5>Lab Setups</h5>
                     <h6>Advance technology lab setups to make students future ready</h6>

@@ -17,24 +17,6 @@ export default function TechnicalHE() {
                     </div>
                 </div>
                 <div className="kproduct">
-                    <img className="kimg" alt="..." src="/images/logos/course.svg"/>
-                    <h5>Skill Development Program</h5>
-                    <h6>Extensive hands-on courses with Industry aligned projects</h6>
-                    <div className="kanime">
-                        <div className="kover" ></div>
-                        <a className="ksm" href="#t">See More</a>
-                    </div>
-                </div>
-                <div className="kproduct">
-                    <img className="kimg" alt="..." src="/images/logos/workshops.svg"/>
-                    <h5>Short-term Workshops</h5>
-                    <h6>30/60 Hour workshops on various platforms</h6>
-                    <div className="kanime">
-                        <div className="kover" ></div>
-                        <a className="ksm" href="#t">See More</a>
-                    </div>
-                </div>
-                <div className="kproduct">
                     <img className="kimg" alt="..." src="/images/logos/lab setup.svg"/>
                     <h5>Lab Setups</h5>
                     <h6>Industry sponsored hardware labs by Microchip and Cypress</h6>

@@ -1,0 +1,12 @@
+.contacthome-container{
+    border: 5px solid #1f4180;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 15px;
+    margin: 3vh auto;
+}
+.contacthome-container h1{
+    color: #1f4180;
+    font-weight: bold;
+    padding: 2vw;
+}

@@ -11,21 +11,21 @@ import Labsetup from './components/main components/products/Labsetup';
 import Workshop from './components/main components/Workshop';
 import Imageslidernew from './components/main components/Imageslidernew';
 import Testimonialsnew from './components/main components/Testimonialsnew';
+import Contact from './components/main components/Contact';
+import ContactonHome from './components/ContactonHome';
 function App() {
   
   return (
     <div className="appContainer">
     <Navbar/>
-    {/* <ImageSlider/> */}
+    {/* <Contact/> */}
     <Imageslidernew/>
     <OfferingHeading/>
     <K12products/>
     <HEEproducts/>
-    {/* <Workshop/>
-    <Labsetup/> */}
     <Owlcarousel/>
+    {/* <ContactonHome/> */}
     <Testimonials/>
-    {/* <Testimonialsnew/> */}
     <Footer/>
     </div>
   );

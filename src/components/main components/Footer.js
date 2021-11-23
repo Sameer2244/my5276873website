@@ -14,14 +14,13 @@ var rootElement = document.documentElement;
       scrollToTopBtn.addEventListener("click", scrollToTop);
 }, [])
     return (
-        <div style={{position:'relative',padding:'3vw'}}>
+        <div style={{position:'relative',padding:'3vw',background:'lightblue'}}>
         <footer className="container">
         <div className="row">
         <img style={{width:'20vw'}} src="./images/alogo.png" alt="..."/>
 
         <div class="col-4">
         <div className="info">
-                    <h5>Mumbai Center</h5>
                     <a>
                     C/O Edkits Electronics, 110, Shiv-Shakti Industrial Estate, Opposite Damodar Park, LBS Road, Ghatkopar West, Mumbai, Maharashtra - 400086.
                     </a>
@@ -57,7 +56,7 @@ var rootElement = document.documentElement;
         </div>
         <div className="row" >
             <h5 style={{marginLeft:'5vw',marginBottom:'2vh'}}>Connect with Us</h5>
-        <div className=" col-sm-3" style={{display:'flex'}}>
+        <div className=" col-sm-1" style={{display:'flex',width:'7vw',marginLeft:'6.5vw'}}>
             <img style={{width:'30px',height:'30px'}} src="./images/logos/facebook.png"/>
             <img  style={{width:'30px',height:'30px'}} src="./images/logos/linkedin.png"/>
                 

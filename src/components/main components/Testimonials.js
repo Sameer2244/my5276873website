@@ -3,10 +3,11 @@ import '../../styles/testimonials.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import UniHeader from '../small components/UniHeader';
 export default function Testimonials() {
     return (
         <div className="owlContainer">
-            <h2>Testimonials</h2>
+            <UniHeader>Testimonials</UniHeader>
         <OwlCarousel className='owl-theme' responsive={false} items={1}  loop margin={0}>
             
             <div className="oitem">

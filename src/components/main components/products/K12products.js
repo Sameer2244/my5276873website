@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from '../../small components/Card';
 import '../../../styles/products/k12productstyle.css'
 import UniHeader from '../../small components/UniHeader';
 import NewCard from '../../small components/NewCard';
@@ -15,8 +14,8 @@ export default function K12products() {
             </NewCard>
             <NewCard anime="fade-up" delay="200" className="k12products" src="./images/cards/AI tool.png" >EduvanceAI
             </NewCard>
-            <NewCard anime="fade-up" delay="300" className="k12products" src="./images/cards/AI tool.png">Entrepedia
-            </NewCard>
+            {/* <NewCard anime="fade-up" delay="300" className="k12products" src="./images/cards/AI tool.png">Entrepedia
+            </NewCard> */}
         </div>
         </div>
     )

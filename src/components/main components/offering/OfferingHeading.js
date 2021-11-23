@@ -7,7 +7,6 @@ export default function OfferingHeading() {
     const demo={
         display:'flex',
         flexWrap:'wrap',
-        marginTop:'3%',
         position:'relative',
         zIndex:'1',
         justifyContent:'space-around'
