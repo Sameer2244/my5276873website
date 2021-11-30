@@ -59,7 +59,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="info col-sm-2 col-md-3 col-xs-12">
-            <h5 className="h5">Products</h5>
+            <h5 style={{marginLeft:'1vw'}} className="h5">Products</h5>
             <ul>
                 <li><a>EDTech Products</a></li>
                 <li><a>Higher Education Edtech Products</a></li>
