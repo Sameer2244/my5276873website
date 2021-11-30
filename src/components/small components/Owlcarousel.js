@@ -8,7 +8,7 @@ export default function Owlcarousel() {
     return (
         <div>
             <UniHeader>Our Industry Partners</UniHeader>
-            <OwlCarousel className='owl-theme' responsive={false} items={5} center={true} loop margin={0}>
+            <OwlCarousel className='owl-theme' items={5} center={true} loop margin={0}>
     <div className='item'>
         <img id="partner1" src="./images/partners/infineon+cypress2.png" alt="..."/>
     </div>

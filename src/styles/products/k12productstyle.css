@@ -11,7 +11,9 @@
     position: relative;
     background-color: #fff;
 }
-
+.k12products{
+    flex: 1 1 100px;
+}
 .k12background{
     position: absolute;
     bottom: 0;

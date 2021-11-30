@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react';
-import '../../styles/imageslidernew.css';
 var counter=1;
 export default function Imageslidernew() {
   

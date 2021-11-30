@@ -4,9 +4,8 @@
     margin: auto;
     height: 80%;
 }
-img{
-    display: block;
-    margin: auto;
+.item img{
+    object-fit: cover;
 }
 
 #partner1{

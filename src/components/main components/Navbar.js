@@ -21,14 +21,14 @@ export default function Navbar() {
       }, []);
     return (
         <>
-        <nav id="my-navbar"  className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav id="my-navbar" className="navbar navbar-custom fixed-top navbar-expand-lg navbar-light ">
             <div id="flexiblenav" className="container-fluid">
                 {/* <a href="#logo" className="navbar-brand" id="title-logo-style">Eduvance</a> */}
                 <img id="my-logo" src="./images/alogo.png"/>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-                <div className="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse navbar-internal" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <a href="#home" id="navhome" className="nav-link">Home</a>

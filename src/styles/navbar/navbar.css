@@ -1,5 +1,6 @@
+
 #title-logo-style{
-    color: black;
+    color: #1F4180;
 }
 #my-logo{
     transition: 500ms;
@@ -16,8 +17,9 @@
 #flexiblenav{
     transition: 500ms;
 }
+
 .navbar-custom{
-    background-color: #fff;
+    background-color: #4DA6FF;
 }
 .container-fluid img{
         width: 15vw;
@@ -30,10 +32,11 @@
 .navbar-nav > li{
     font-size: 1.15rem;
     padding-left:0.5vw;
+    font-weight: bold;
     padding-right:0.5vw;
 }
 #navhome{
-    color: black;
+    color: #1F4180;
     position: relative;
     letter-spacing: 0.5px;
     padding: 0.2vh 1vw;
@@ -41,78 +44,85 @@
 }
 #navhome:hover
 {
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 #navcourse{
     margin-right: 5%;
-    color: black;
+    color: #1F4180;
     padding: 0.2vh 1vw;
 }
 
 #navcourse:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 #navcareer{
     margin-right: 5%;
-    color: black;
+    color: #1F4180;
     padding: 0.2vh 1vw;
 }
 
 #navcareer:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 #navcontact{
-    color: black;
+    color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
 }
 
 #navcontact:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 
 #navproduct{
-    color: black;
+    color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
 }
 
 #navproduct:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 #navwhyus{
-    color: black;
+    color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
 }
 
 #navwhyus:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 #navourteam{
-    color: black;
+    color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
 }
 
 #navourteam:hover{
-    background-color: #000;
+    background-color: #1F4180;
     color: white;
 }
 
 
 #navbarSupportedContent {
     color: white;
+}
+
+@media screen and (max-width:990px){
+    
+.navbar-internal{
+    background-color: white;
+}
 }

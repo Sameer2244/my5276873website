@@ -1,0 +1,24 @@
+
+.carousel{
+    width: auto;
+    height: 90vh;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item img{
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.carousel-item div{
+    font-size: 1.2rem;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 10%;
+    width: 30%;
+    transform: translateY(-50%);
+}
+

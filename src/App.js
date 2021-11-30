@@ -16,15 +16,15 @@ import ContactonHome from './components/ContactonHome';
 function App() {
   
   return (
-    <div className="appContainer">
+    <div>
     <Navbar/>
     {/* <Contact/> */}
-    <Imageslidernew/>
+    <ImageSlider/>
     <OfferingHeading/>
     <K12products/>
     <HEEproducts/>
     <Owlcarousel/>
-    {/* <ContactonHome/> */}
+    <ContactonHome/>
     <Testimonials/>
     <Footer/>
     </div>
