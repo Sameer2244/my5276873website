@@ -6,22 +6,27 @@
 }
 .symbols{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 40%;
-  margin-left: 5vw;
 }
 .h5{
   color: #1F4180;
   font-weight: 600;
+  margin-bottom: 2vh;
 }
 .myContainer{
   color: black;
+  width: 95vw;
+  margin: auto;
   padding: 4vh 2vw;
 }
 .my-img{
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+.row{
+  margin-left: 1vw;
 }
 #scrollToTopBtn {
     position: absolute;
@@ -39,8 +44,9 @@
     .address{
       width: 100%;
     }
-    
-.menu{
-  width: 100%;
-}
+        
+    .menu{
+      width: 100%;
+      
+    }
   }
