@@ -26,7 +26,7 @@
         /* min-width: 250px; */
         margin-left: 2vw;
 }
-.nav-link:hover{
+.nav-link{
     border-radius: 10px;
 }
 .navbar-nav > li{
@@ -40,7 +40,7 @@
     position: relative;
     letter-spacing: 0.5px;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 #navhome:hover
 {
@@ -52,7 +52,7 @@
     margin-right: 5%;
     color: #1F4180;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navcourse:hover{
@@ -64,7 +64,7 @@
     margin-right: 5%;
     color: #1F4180;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navcareer:hover{
@@ -76,7 +76,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navcontact:hover{
@@ -89,7 +89,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navproduct:hover{
@@ -101,7 +101,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navwhyus:hover{
@@ -113,7 +113,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
-    transition: 0ms;
+    transition: 500ms ease-in-out;
 }
 
 #navourteam:hover{
