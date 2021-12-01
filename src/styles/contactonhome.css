@@ -42,10 +42,10 @@
     transform: translate(50%,-50%);
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-height: 768px) {
     .contact-info{
         width: 250px;
-        margin-left: 15vw;
+        margin-left: 25vw;
         height: auto;
         margin-bottom: 10vh;
         padding: 6vh 2vw;

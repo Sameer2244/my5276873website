@@ -19,7 +19,7 @@
 }
 
 .navbar-custom{
-    background-color: #4DA6FF;
+    background-color: #fff;
 }
 .container-fluid img{
         width: 15vw;
@@ -40,7 +40,7 @@
     position: relative;
     letter-spacing: 0.5px;
     padding: 0.2vh 1vw;
-    transition: 500ms;
+    transition: 0ms;
 }
 #navhome:hover
 {
@@ -52,6 +52,7 @@
     margin-right: 5%;
     color: #1F4180;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navcourse:hover{
@@ -63,6 +64,7 @@
     margin-right: 5%;
     color: #1F4180;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navcareer:hover{
@@ -74,6 +76,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navcontact:hover{
@@ -86,6 +89,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navproduct:hover{
@@ -97,6 +101,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navwhyus:hover{
@@ -108,6 +113,7 @@
     color: #1F4180;
     position: relative;
     padding: 0.2vh 1vw;
+    transition: 0ms;
 }
 
 #navourteam:hover{

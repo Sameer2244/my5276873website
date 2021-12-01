@@ -17,6 +17,9 @@ export default function K12products() {
             {/* <NewCard anime="fade-up" delay="300" className="k12products" src="./images/cards/AI tool.png">Entrepedia
             </NewCard> */}
         </div>
+        <div className="see-more">
+        <a href="#">See more..</a>
+        </div>
         </div>
     )
 }

@@ -14,7 +14,7 @@ export default function Footer() {
     scrollToTopBtn.addEventListener("click", scrollToTop);
   }, []);
   return (
-    <div style={{ position: "relative",fontSize:'0.95rem',background:'#4DA6FF'}}>
+    <div style={{ position: "relative",fontSize:'0.95rem',background:'#fff'}}>
       <footer  className="container myContainer">
         <div className="row">
           <div className="info col-sm-12 col-md-3 col-xs-12">
@@ -29,7 +29,7 @@ export default function Footer() {
             alt="..."
           />
           <div >
-            <h5 style={{ marginLeft: "3vw", marginBottom: "2vh" }}>
+            <h5 style={{ marginLeft: "3vw", marginBottom: "2vh" ,color:'#1F4180'}}>
               Connect with Us
             </h5>
             <div className="symbols">
@@ -46,15 +46,20 @@ export default function Footer() {
           </div>
           <div className="info address col-sm-5 col-md-4 col-xs-12">
             <h5 className="h5">Contact Now</h5>
-            <a>
+            <div style={{display:'flex'}}>
+            <img className="my-img" src="./images/logos/location.png"/>
+              <div>
               C/O Edkits Electronics, 110, Shiv-Shakti Industrial Estate,
               Opposite Damodar Park, LBS Road, Ghatkopar West, Mumbai,
               Maharashtra - 400086.
-              <br/>
-              +919619616593
-              <br />
+              </div>
+            </div>
+            <a>
+              <img className="my-img" alt="..." src="./images/logos/phone-call.png"/>
+              +919619616593 /
               +919137517358
               <br/>
+              <img className="my-img" src="./images/logos/email.png" alt="..."/>
               contact@eduvance.com
             </a>
           </div>

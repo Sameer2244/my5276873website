@@ -4,7 +4,7 @@ import UniHeader from '../../small components/UniHeader';
 import NewCard from '../../small components/NewCard';
 export default function HEEproducts() {
     return (
-        <div>
+        <div className="k12div">
         <UniHeader>Higher Education Edtech Products</UniHeader>
         <div className="k12product-container">
             <NewCard anime="fade-up" delay="400"  className="k12products" src="./images/cards/AI lab.png" >AI Fundamental Lab
@@ -17,6 +17,9 @@ export default function HEEproducts() {
             </NewCard> */}
             {/* <Card  anime="fade-up" delay="10"  className="k12products" src="./images/cards/Drone Labs.png" title="Entrepreneur Development Center">Development center and ecosystem for students to learn the foundations of entrepreneurship. Labs contain software licenses, mentoring sessions and case studies for students to simulate their own startups.
             </Card> */}
+        </div>
+        <div className="see-more">
+        <a href="#">See more..</a>
         </div>
         </div>
     )

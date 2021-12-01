@@ -75,13 +75,10 @@
     outline: none;
     border: none;
     border-radius: 5px;/*comment this*/
-    background: white;
+    background: #fff;
     color: black;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease;
   }
-  .new-card .info button:hover {
-    background: black;
-    color: white;
-  }
+  
