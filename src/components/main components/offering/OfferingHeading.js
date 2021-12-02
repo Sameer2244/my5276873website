@@ -84,7 +84,7 @@ export default function OfferingHeading() {
 
 
 
-      <h2 style={{textAlign:'center',color:'#1F4180',margin:'0',padding:'0'}}>K-12 Edtech Products </h2>
+      <h2 style={{textAlign:'center',color:'#1F4180',margin:'0',padding:'0'}}>Technical Higher Products </h2>
       <div className="owlContainer" style={demo}>
         {/* <K12new />
         <TechnicalHEnew /> */}
