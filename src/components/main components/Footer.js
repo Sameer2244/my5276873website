@@ -14,7 +14,7 @@ export default function Footer() {
     scrollToTopBtn.addEventListener("click", scrollToTop);
   }, []);
   return (
-    <div style={{ position: "relative",fontSize:'0.95rem',background:'#fff'}}>
+    <div style={{ position: "relative",fontSize:'0.95rem',background:'#DADDFC'}}>
       <footer  className=" myContainer">
         <div className="row">
           <div style={{marginTop:'-0.1vw'}} className="info col-sm-12 col-md-3 col-xs-12">
@@ -89,10 +89,11 @@ export default function Footer() {
               Verify
             </a>
           </div>
-          <p style={{textAlign:'center',fontSize:'0.9rem'}}>© 2021 Vanmat Technologies Pvt. Ltd. All rights reserved.</p>
         </div>
       </footer>
-      <button id="scrollToTopBtn">^</button>
+      <p style={{textAlign:'center',fontWeight:'bold',color:'#1F4180',fontSize:'0.9rem',margin:'0'}}>© 2021 Vanmat Technologies Pvt. Ltd. All rights reserved.</p>
+    
+      <img id="scrollToTopBtn" src="./images/logos/up-arrow.png" />
     </div>
   );
 }

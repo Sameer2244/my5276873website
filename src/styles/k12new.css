@@ -8,12 +8,14 @@
 }
 
 .Edetech-title{
+    text-align: start;
     color: #1F4180;
     font-weight: 800;
 }
 
 .edetech-products p{
     font-weight: bold;
+    text-align: start;
 }
 .edetech-products a{
     text-decoration: none;
@@ -33,5 +35,5 @@
     display: flex;
     margin-top: 4vh;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }

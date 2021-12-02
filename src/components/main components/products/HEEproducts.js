@@ -4,7 +4,7 @@ import UniHeader from '../../small components/UniHeader';
 import NewCard from '../../small components/NewCard';
 export default function HEEproducts() {
     return (
-        <div className="k12div">
+        <div style={{background:'#f5f5f5'}} className="k12div">
         <UniHeader>Higher Education Edtech Products</UniHeader>
         <div className="k12product-container">
             <NewCard anime="fade-up" delay="400"  className="k12products" src="./images/cards/AI lab.png" >AI Fundamental Lab

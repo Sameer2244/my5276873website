@@ -30,15 +30,18 @@
 }
 #scrollToTopBtn {
     position: absolute;
-    background-color: black;
     border: none;
     color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 50%;
     cursor: pointer;
     font-size: 2rem;
     right: 1%;
     bottom: 3%;
     width: 48px;
   }
+
 
   @media screen and (max-width:1200px) {
     .address{

@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../styles/k12new.css";
 export default function K12new() {
   return (
     <div className="k12-Container">

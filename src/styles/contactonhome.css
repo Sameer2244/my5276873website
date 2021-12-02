@@ -7,7 +7,7 @@
     border-radius: 15px;
     text-align: end;
     min-width: 400px;
-    margin: 3vh auto;
+    margin:auto;
     flex-wrap: wrap;
     padding: 3vw;
 }
