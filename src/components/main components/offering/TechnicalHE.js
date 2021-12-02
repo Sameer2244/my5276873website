@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../styles/offeringstyles/ktwelve.css';
 
 export default function TechnicalHE() {
     return (
