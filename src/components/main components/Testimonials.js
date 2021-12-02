@@ -8,7 +8,7 @@ export default function Testimonials() {
     return (
         <div className="owlContainer">
             <UniHeader>Testimonials</UniHeader>
-        <OwlCarousel className='owl-theme' items={1}  loop margin={0}>
+        <OwlCarousel autoplay="true" autoplayHoverPause="true" className='owl-theme' items={1}  loop margin={0}>
             
             <div className="oitem">
                 <h5>Avneet Kaur, SIT 2019</h5>

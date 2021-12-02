@@ -71,10 +71,10 @@
     bottom: 0;
     left: 50%;
     margin-top: 1vh;
-    padding: 0.6rem;
+    padding: 0.6vh 1vw;
     outline: none;
     border: none;
-    border-radius: 5px;/*comment this*/
+    border-radius: 15px;/*comment this*/
     background: #fff;
     color: black;
     font-weight: bold;

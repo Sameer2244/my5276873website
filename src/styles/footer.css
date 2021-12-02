@@ -28,6 +28,9 @@
 .row{
   margin-left: 1vw;
 }
+.info ul li a{
+  text-decoration:none;
+}
 #scrollToTopBtn {
     position: absolute;
     border: none;

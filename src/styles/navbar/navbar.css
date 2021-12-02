@@ -73,7 +73,8 @@
 }
 
 #navcontact{
-    color: #1F4180;
+    background-color: #1F4180;
+    color: white;
     position: relative;
     padding: 0.2vh 1vw;
     transition: 500ms ease-in-out;

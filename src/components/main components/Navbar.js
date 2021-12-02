@@ -40,10 +40,10 @@ export default function Navbar() {
                             <a href="#careers" id="navcareer" className="nav-link">Careers</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#contact" id="navcontact" className="nav-link">Contact</a>
+                            <a href="#whyus" id="navwhyus" className="nav-link">Why Us</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#whyus" id="navwhyus" className="nav-link">Why Us</a>
+                            <a href="#contact" id="navcontact" className="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>

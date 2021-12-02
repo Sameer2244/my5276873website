@@ -10,6 +10,7 @@
     margin:auto;
     flex-wrap: wrap;
     padding: 3vw;
+    margin-top: 1vh;
 }
 .contacthome-container h1{
     color: #1f4180;
@@ -23,7 +24,7 @@
     color: white;
     background-color: #1f4180;
     padding: 1.5vh 2vw;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .contact-info{
     width: 500px;
