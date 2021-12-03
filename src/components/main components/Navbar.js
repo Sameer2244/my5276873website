@@ -11,7 +11,7 @@ export default function Navbar() {
             document.getElementById("my-logo").style.width = "12vw";
             document.getElementById("my-logo").style.height = "auto";
         } else {
-            document.getElementById("my-navbar").style.height = "13vh";
+            document.getElementById("my-navbar").style.height = "11vh";
             document.getElementById("flexiblenav").style.height = "10vh";
             document.getElementById("my-logo").style.width = "15vw";
             document.getElementById("my-logo").style.height = "auto";

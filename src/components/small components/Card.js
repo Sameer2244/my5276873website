@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../styles/card.css';
 export default function Card(props) {
     return (
         <div data-aos={props.anime} data-aos-delay={props.delay} data-aos-once="true" data-aos-duration="1500" >

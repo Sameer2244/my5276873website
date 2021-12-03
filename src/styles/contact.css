@@ -30,7 +30,7 @@
 }
 .contact-inputs h6{
     
-    color: rgb(13, 13, 77);
+    color: #1F4180;
     font-weight: bold;
     font-size: 1.25rem;
     margin-top: 3vh;
@@ -46,7 +46,7 @@
 
 .contact-inputs button{
     color: white;
-    background-color: #0B2149;
+    background-color: #1F4180;
     margin-top: 2vh;
 }
 .right-side{
@@ -67,7 +67,7 @@
     padding: 2vw;
     margin: 1vw;
     color: white;
-    background-color: #0B2149;
+    background-color: #1F4180;
 }
 @media screen and (max-width: 786px) {
     .contact-container{

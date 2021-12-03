@@ -51,14 +51,16 @@ export default function Footer() {
             </div>
           </div>
           </div>
-          <div style={{marginLeft:'5vw',marginRight:'2vw'}} className="info address col-sm-5 col-md-4 col-xs-12">
+          <div style={{paddingLeft:'5vw',marginRight:'2vw'}} className="info address col-sm-5 col-md-4 col-xs-12">
             <h5 className="h5">Contact Now</h5>
-            <div style={{display:'flex',marginBottom:'1.5vh'}}>
+            <div style={{display:'flex',marginBottom:'1.5vh',textAlign:'justify'}}>
             <img className="my-img" src="./images/logos/location.png"/>
               <div>
+              <a>
               C/O Edkits Electronics, 110, Shiv-Shakti Industrial Estate,
               Opposite Damodar Park, LBS Road, Ghatkopar West, Mumbai,
               Maharashtra - 400086.
+              </a>
               </div>
             </div>
             <a>
@@ -74,14 +76,13 @@ export default function Footer() {
             </a>
             </div>
           </div>
-          <div style={{width:'17vw',marginRight:'1.5vw'}} className="info col-sm-2 col-md-3 col-xs-12">
-            <h5 style={{marginLeft:'1vw',marginBottom:'2vh'}} className="h5">Products</h5>
-            <ul>
-                <li><a>EDTech Products</a></li>
-                <li><a>Higher Education Edtech Products</a></li>
-            </ul>
+          <div style={{width:'17vw',paddingLeft:'5vw'}} className="info col-sm-2 col-md-3 col-xs-12">
+            <h5 style={{marginBottom:'2vh'}} className="h5">Products</h5>
+            
+                <a>EDTech Products</a><br/>
+                <a>Higher Education Edtech Products</a>
           </div>
-          <div className="info menu col-sm-2 col-md-2 col-xs-12">
+          <div style={{paddingLeft:'4vw',}} className="info menu col-sm-2 col-md-2 col-xs-12">
             <h5 className="h5">Menu</h5>
             <a>
               Why Us

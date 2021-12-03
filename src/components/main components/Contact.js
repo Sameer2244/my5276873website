@@ -24,7 +24,7 @@ export default function Contact(props) {
         </form>
       </div>
       <div className="right-side">
-        <h1 style={{ margin: "0 1vw", color: "rgb(13, 13, 77)" }}>
+        <h1 style={{ margin: "0 1vw", color: "#1F4180" }}>
           Contact Us
         </h1>
         <div className="contact-addresses">

@@ -8,12 +8,12 @@ import TechnicalHE from "./TechnicalHE";
 import TechnicalHEnew from "./TechnicalHEnew";
 export default function OfferingHeading() {
   const demo = {
-    // display:'flex',
-    // flexWrap:'wrap',
-    // position:'relative',
-    // zIndex:'1',
-    // justifyContent:'space-around'
-    width: "70vw",
+    display:'flex',
+    flexWrap:'wrap',
+    position:'relative',
+    zIndex:'1',
+    justifyContent:'space-evenly',
+    width: "75vw",
     margin: "auto",
     color: "black",
     background:'#f5f5f5'
@@ -26,8 +26,6 @@ export default function OfferingHeading() {
       <div className="owlContainer" style={demo}>
         {/* <K12new />
         <TechnicalHEnew /> */}
-        <OwlCarousel className="owl-theme" 
-    autoplay="true" autoplayTimeout={4000} items={1} loop margin={0}>
           <div className="edetech-products">
             <img
               style={{ width: "300px", height: "300px" }}
@@ -45,7 +43,7 @@ export default function OfferingHeading() {
             >
               <div>
                 <h1 className="Edetech-title">Edtech Products</h1>
-                <p>Innovative ways to enhance teaching and learning</p>
+                <p  style={{textAlign:'center'}}>Innovative ways to enhance teaching and learning</p>
               </div>
               <a style={{ width: "fit-content" }} href="#">
                 Learn more
@@ -67,9 +65,9 @@ export default function OfferingHeading() {
                 width: "25vw",
               }}
             >
-              <div>
+              <div style={{margin:'auto'}}>
                 <h1 className="Edetech-title">Lab Setups</h1>
-                <p>
+                <p style={{textAlign:'center'}}>
                   Advanced technology lab setup and atal tinkering lab setup at
                   institutions to strengthen their foundation
                 </p>
@@ -79,7 +77,6 @@ export default function OfferingHeading() {
               </a>
             </div>
           </div>
-        </OwlCarousel>
       </div>
 
 
@@ -88,9 +85,13 @@ export default function OfferingHeading() {
       <div className="owlContainer" style={demo}>
         {/* <K12new />
         <TechnicalHEnew /> */}
-        <OwlCarousel autoplay="true" autoplayTimeout={4000} className="owl-theme" items={1} loop margin={0}>
           <div className="edetech-products">
             
+          <img
+              style={{ width: "300px", height: "300px" }}
+              src="./images/logos/settings.svg"
+              alt="..."
+            />
             <div
               style={{
                 display: "flex",
@@ -102,20 +103,20 @@ export default function OfferingHeading() {
             >
               <div>
                 <h1 className="Edetech-title">Edtech Products</h1>
-                <p>Innovative ways to enhance teaching and learning</p>
+                <p  style={{textAlign:'center'}}>Innovative ways to enhance teaching and learning</p>
               </div>
               <a style={{ width: "fit-content" }} href="#">
                 Learn more
               </a>
             </div>
-            <img
-              style={{ width: "300px", height: "300px" }}
-              src="./images/logos/settings.svg"
-              alt="..."
-            />
           </div>
           <div className="edetech-products">
             
+          <img
+              style={{ width: "300px", height: "300px" }}
+              src="./images/logos/lab setup.svg"
+              alt="..."
+            />
             <div
               style={{
                 display: "flex",
@@ -127,7 +128,7 @@ export default function OfferingHeading() {
             >
               <div>
                 <h1 className="Edetech-title">Lab Setups</h1>
-                <p>
+                <p  style={{textAlign:'center'}}>
                   Advanced technology lab setup and atal tinkering lab setup at
                   institutions to strengthen their foundation
                 </p>
@@ -136,13 +137,7 @@ export default function OfferingHeading() {
                 Learn more
               </a>
             </div>
-            <img
-              style={{ width: "300px", height: "300px" }}
-              src="./images/logos/lab setup.svg"
-              alt="..."
-            />
           </div>
-        </OwlCarousel>
       </div>
     </div>
   );

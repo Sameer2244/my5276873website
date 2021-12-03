@@ -37,7 +37,7 @@ export default function ImageSlider() {
               <h1>EnablAR</h1>
               <p>State of the art AR VR coding and development platform for students</p>
             </div>
-          <img src="./images/slider/EnablAR Code Landing.png" className="d-block w-100" alt="..."/>
+          <img src="./images/slider/EnablAR Code Landing.png" className="d-block w-100 h-80" alt="..."/>
         </div>
         <div className="carousel-item">
             <div>

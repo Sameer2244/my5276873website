@@ -3,6 +3,7 @@
 }
 .info{
   margin: 2vh 0;
+  min-width: 240px;
 }
 .symbols{
   display: flex;
@@ -30,6 +31,9 @@
 }
 .info ul li a{
   text-decoration:none;
+}
+.info ul{
+  list-style-type: none;
 }
 #scrollToTopBtn {
     position: absolute;

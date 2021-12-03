@@ -9,9 +9,13 @@
     margin: auto;
 }
 
+.owl-theme .owl-dots .active span{
+    background: #000 !important;
+}
 .oitem{
     margin: auto;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
+    min-height: 400px;
     background-color: #1F4180;
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
