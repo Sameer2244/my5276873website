@@ -15,10 +15,18 @@
 .oitem{
     margin: auto;
     margin-bottom: 3vw;
+    font-size: 0.9rem;
     min-height: 400px;
     background-color: #1F4180;
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     padding: 2vw 2vh;
     width: 60%;
+}
+
+@media only screen and (max-width:1080px) {
+    .oitem{
+        width: 90vw;
+        margin-bottom: 10px;
+    }
 }

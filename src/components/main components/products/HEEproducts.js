@@ -9,17 +9,17 @@ export default function HEEproducts() {
         <div className="k12product-container">
             <div>
            <h2 style={{textAlign:'center'}}>AI Fundamental Lab</h2>
-            <NewCard anime="fade-up" delay="400"  className="k12products" src="./images/cards/AI lab.png" >
+            <NewCard link="AIFundamentalTab" anime="fade-up" delay="400"  className="k12products" src="./images/cards/AI lab.png" >
             </NewCard>
             </div>
            <div>
            <h2 style={{textAlign:'center'}}>ARVR Lab</h2>
-           <NewCard anime="fade-up" delay="300"  className="k12products" src="./images/cards/ARVR lab.png" >
+           <NewCard link="ARVRLab" anime="fade-up" delay="300"  className="k12products" src="./images/cards/ARVR lab.png" >
             </NewCard>
            </div>
             <div>
            <h2 style={{textAlign:'center'}}>IoT Lab</h2>
-            <NewCard  anime="fade-up" delay="200"  className="k12products" src="./images/cards/ARVR lab.png" >
+            <NewCard link="IOTLab" anime="fade-up" delay="200"  className="k12products" src="./images/cards/ARVR lab.png" >
             </NewCard>
             </div>
             {/* <NewCard  anime="fade-up" delay="100"  className="k12products" src="./images/cards/Drone Labs.png">Drone Lab

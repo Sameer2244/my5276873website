@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/contactonhome.css'
 export default function ContactonHome() {
     return (
-        <div style={{background:'#f7f7f7',padding:'4vh 0'}}>
+        <div className="contacthome-container1" style={{background:'#f7f7f7',padding:'4vh 0'}}>
             <div className="contacthome-container">
             <div className="contact-info">
             <h1>Interested in our offerings?</h1>

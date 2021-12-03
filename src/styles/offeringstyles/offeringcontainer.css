@@ -8,6 +8,7 @@
     padding-bottom: 1%;
     margin-top: 2vh;
     color: #1F4180;
+    margin-bottom: 0;
     font-weight: bold;
 }
 .hrline{
@@ -15,4 +16,5 @@
     margin: auto;
     border: 0.1rem solid #000;
     margin-bottom: 2%;
+    margin-top: 0;
 }

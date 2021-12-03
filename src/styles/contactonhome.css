@@ -14,20 +14,22 @@
 }
 .contacthome-container h1{
     color: #1f4180;
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 10vh;
+    
 }
 .contacthome-container a{
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: white;
     background-color: #1f4180;
     padding: 1.5vh 2vw;
     border-radius: 15px;
 }
 .contact-info{
-    width: 500px;
+    width: 30vw;
+    min-width: 350px;
     margin-left: 15vw;
     height: auto;
     margin-bottom: 10vh;
@@ -43,12 +45,21 @@
     transform: translate(50%,-50%);
 }
 
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 1080px) {
+    .contacthome-container{
+        width: 90vw;
+        min-width: 350px;
+        overflow: hidden;
+    }
     .contact-info{
-        width: 250px;
-        margin-left: 25vw;
+        min-width: 250px;
+        width: 20vw;
         height: auto;
-        margin-bottom: 10vh;
-        padding: 6vh 2vw;
+    }
+    .contacthome-container h1{
+        font-size: 1.5rem;
+    }
+    .contacthome-container a{
+        font-size: 0.75rem;
     }
 }

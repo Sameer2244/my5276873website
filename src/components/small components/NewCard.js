@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import '../../styles/newcard.css';
 export default function NewCard(props) {
     return (
@@ -8,7 +9,7 @@ export default function NewCard(props) {
             <h1>{props.children}</h1>
             </div>
         </div>
-            <p className="new-card-btn">Read More</p>
+            <Link style={{textDecoration:'none'}} to={props.link} ><p className="new-card-btn">Read More</p></Link>
         </div>
     )
 }

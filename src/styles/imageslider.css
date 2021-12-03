@@ -19,6 +19,6 @@
     top: 80%;
     left: 10%;
     width: 30%;
+    min-width: 325px;
     transform: translateY(-50%);
 }
-

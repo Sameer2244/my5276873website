@@ -10,17 +10,17 @@ export default function K12products() {
        <div className="k12product-container">
            <div>
            <h2 style={{textAlign:'center'}}>EnablarAR</h2>
-            <NewCard anime="fade-up" delay="10" className="k12products" src="./images/cards/EnablAR Code.png">
+            <NewCard link="EnablAR" anime="fade-up" delay="10" className="k12products" src="./images/cards/EnablAR Code.png">
             </NewCard>
            </div>
            <div>
            <h2 style={{textAlign:'center'}}>Drone Simulator</h2>
-            <NewCard anime="fade-up" delay="100" className="k12products" src="./images/cards/Drone Labs.png">
+            <NewCard link="DroneSim" anime="fade-up" delay="100" className="k12products" src="./images/cards/Drone Labs.png">
             </NewCard>
            </div>
            <div>
            <h2 style={{textAlign:'center'}}>EduvanceAI</h2>
-            <NewCard anime="fade-up" delay="200" className="k12products" src="./images/cards/AI tool.png" >
+            <NewCard link="EduvanceAI" anime="fade-up" delay="200" className="k12products" src="./images/cards/AI tool.png" >
             </NewCard>
            </div>
             {/* <NewCard anime="fade-up" delay="300" className="k12products" src="./images/cards/AI tool.png">Entrepedia
